@@ -1,0 +1,52 @@
+CLASSES ===>
+
+CLASSES SÃO A BASE DA PROGRAMAÇÃO ORIENTADA A OBJETOS (POO) EM JAVA. ELAS SÃO COMO MOLDES OU BLUEPRINTS QUE DEFINEM AS PROPRIEDADES (ATRIBUTOS) E COMPORTAMENTOS (MÉTODOS) DOS OBJETOS QUE SERÃO CRIADOS A PARTIR DELAS.
+
+SERVEM PARA --->
+
+1 - ORGANIZAR O CÓDIGO:
+
+        CLASSES AGRUPAM DADOS E MÉTODOS RELACIONADOS EM UMA ÚNICA ESTRUTURA, FACILITANDO A LEITURA E MANUTENÇÃO DO CÓDIGO.
+
+2 - CRIAR OBJETOS:
+
+        EM JAVA, OBJETOS SÃO INSTÂNCIAS DE CLASSES. POR EXEMPLO, SE UMA CLASSE DEFINE UM CARRO, OS OBJETOS SÃO OS CARROS ESPECÍFICOS COM SUAS PRÓPRIAS CARACTERÍSTICAS.
+
+3 - REUTILIZAÇÃO DE CÓDIGO:
+
+        VOCÊ PODE USAR A MESMA CLASSE PARA CRIAR DIVERSOS OBJETOS SEM PRECISAR REESCREVER O CÓDIGO.
+
+4 - ENCAPSULAMENTO:
+
+        CLASSES PERMITEM OCULTAR OS DETALHES INTERNOS DOS OBJETOS, EXPONDO APENAS O QUE É NECESSÁRIO ATRAVÉS DE MÉTODOS PÚBLICOS.
+
+
+COMO DECLARAR E USAR CLASSES EM JAVA? --->
+
+1 - DECLARAÇÃO DE UMA CLASSE:   
+        UMA CLASSE É DEFINIDA USANDO A PALAVRA-CHAVE class:
+            EXEMPLO: 
+            
+                        public class MinhaClasse{
+                        // ATRIBUTOS
+                        int idade;
+                        String nome;
+
+                        // MÉTODOS
+                        void mostrarNome() {
+                            System.out.println("O NOME É: " + nome);
+                        }
+                    }
+
+
+2 - CRIANDO UM OBJETO:   
+        VOCÊ USA O OPERADOR new PARA INSTANCIAR UM OBJETO:
+            EXEMPLO: 
+
+                        MinhaClasse obj = new MinhaClasse();
+                        obj.nome = "Douglas";
+                        obj.mostrarNome();
+
+3 - MÉTODOS E ATRIBUTOS:   
+        ATRIBUTOS ARMAZENAM INFORMAÇÕES SOBRE O OBJETO.
+        MÉTODOS EXECUTAM AÇÕES OU MANIPULAM OS ATRIBUTOS.
